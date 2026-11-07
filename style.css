@@ -1,4 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.container p{
+    color:red;
+}
+.container .special{
+    background-color:rgb(30, 65, 142);
+    color:white;
+}
+.container >h2{
+    color:purple;
+=======
+>>>>>>> origin/main
 h1,h2{  
     color:purple;
 }
@@ -6,6 +19,7 @@ h1,h2{
 [data-priority="high"]{
     color:rgb(160, 57, 57);
     
+<<<<<<< HEAD
 =======
 .container p{
     color:red;
@@ -17,4 +31,7 @@ h1,h2{
 .container >h2{
     color:purple;
 >>>>>>> 8c26385 (descent seletor)
+=======
+>>>>>>> 261802199d8582cdeead3e77d384afaa01fda615
+>>>>>>> origin/main
 }
