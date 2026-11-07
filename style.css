@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1,h2{  
     color:purple;
 }
@@ -5,4 +6,15 @@ h1,h2{
 [data-priority="high"]{
     color:rgb(160, 57, 57);
     
+=======
+.container p{
+    color:red;
+}
+.container .special{
+    background-color:rgb(30, 65, 142);
+    color:white;
+}
+.container >h2{
+    color:purple;
+>>>>>>> 8c26385 (descent seletor)
 }
