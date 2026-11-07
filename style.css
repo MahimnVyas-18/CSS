@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container p{
     color:red;
 }
@@ -7,4 +8,13 @@
 }
 .container >h2{
     color:purple;
+=======
+h1,h2{  
+    color:purple;
+}
+
+[data-priority="high"]{
+    color:rgb(160, 57, 57);
+    
+>>>>>>> 261802199d8582cdeead3e77d384afaa01fda615
 }
