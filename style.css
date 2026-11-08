@@ -1,0 +1,36 @@
+*{
+    color:rgb(159, 40, 40);
+    text-align:center;
+    line-height:1.5;
+
+
+}
+
+#main-title {
+    color:blue;
+    background-color:yellow;
+
+
+
+}
+.highlights{
+    color:rgb(23, 240, 66);
+    background-color:rgb(190, 17, 196);
+
+}
+.text-content{
+    color:rgb(23, 237, 73);
+}
+h3,h4{
+    color:rgb(23, 58, 199);
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+[data-priority="high"]{
+    text-align:left;
+}
+[data-priority="low"]{
+    text-align:left;
+}
+
