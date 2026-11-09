@@ -1,37 +1,37 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.container p{
-    color:red;
+.container{
+    background-color:#f0f0f0;
+    height:100vh;
+    border: 2px solid #ccc;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
 }
-.container .special{
-    background-color:rgb(30, 65, 142);
-    color:white;
+.box{
+    height:150px;
+    background-color:red;
+    margin:10px;
 }
-.container >h2{
-    color:purple;
-=======
->>>>>>> origin/main
-h1,h2{  
-    color:purple;
-}
+.box1 {
+    background-color:green;
+    align-self:flex-end;
+    flex-grow:1;
 
-[data-priority="high"]{
-    color:rgb(160, 57, 57);
-    
-<<<<<<< HEAD
-=======
-.container p{
-    color:red;
 }
-.container .special{
-    background-color:rgb(30, 65, 142);
+.box2{
+    background-color: purple;
+    align-self:flex-start;
+    flex-grow:2;
+}
+.box3{
+    background-color:rgb(86, 12, 27);
     color:white;
+    align-self:center;
+    flex-grow:4;
 }
-.container >h2{
-    color:purple;
->>>>>>> 8c26385 (descent seletor)
-=======
->>>>>>> 261802199d8582cdeead3e77d384afaa01fda615
->>>>>>> origin/main
+.box4{
+    background-color:darkgoldenrod;
+    color:white;
+    align-self:baseline;
+    flex-grow:3;
 }
