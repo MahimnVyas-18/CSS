@@ -1,16 +1,5 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    margin :0;
-    padding:0;
-}
-.container{
-    width:100%;
-    background-color:hotpink;
-    margin:0 auto;
-    padding:20px;
-}
-.box{
-    background-color:darkslategray;
-    width:48%;
-    text-align:center; 
+.pixel-box{
+    width:400px;    
+    height:200px;
+    background-color:tomato;
 }
