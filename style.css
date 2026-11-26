@@ -1,5 +1,10 @@
-.pixel-box{
-    width:400px;    
-    height:200px;
-    background-color:tomato;
+.parent{
+    background-color:red;
+    width:80%;
+    color:white;
+}
+.child{
+    background-color:yellow;
+    width:50%;
+    color:black;
 }
