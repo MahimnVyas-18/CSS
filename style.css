@@ -1,49 +1,36 @@
-/*default style for mobile*/
 *{
     margin:0;
     padding:0;
 }
+/*defautl size for large desktops*/
 .header{
-    background-color:yellow;
-    height:100vh;
+    background-color:blue;
+    font-size:30px;
+    height:100px;
+    color:white;
+    padding:40px;
 }
-p{
-    color:blanchedalmond;
-    font-size:2rem;
-}
-/*larger phones*/
-@media(min-width:375px){
+/*size for small desktops*/
+@media(max-width:1439px){
     .header{
-        background-color:blue;
+        background-color:darkorange;
     }
-    p{
-    color:yellow;
-    font-size:5rem;
-} 
 }
-/*tablets*/
-@media(min-width:768px){
+/*tablets:adjust styles for screens width up to 1279px*/
+@media(max-width:1279px){
     .header{
         background-color:green;
     }
 }
-/*small desktops*/
-@media(min-width:1280px){
+/*larger phones :adjust styles for screen width up to 767px*/
+@media(max-width:767px){
     .header{
-        background-color:purple;
+        background-color:rebeccapurple;
     }
-    p{
-    color:orange;
-    font-size:10rem;
 }
-}
-/*larger desktops*/
-@media(min-width:1440px){
+/*mobile :adjust styles for every small screens ,up to 374px*/
+@media(max-width:374px){
     .header{
-        background-color:red;
+        background-color:yellow;
     }
-    p{
-    color:pink;
-    font-size:12rem;
-}
 }
